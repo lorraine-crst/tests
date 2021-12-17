@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+@import 'variables';
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+.container{
+    width: 100%;
+    background: url('../images/bg-pattern-bottom-desktop.svg') no-repeat;
+
+    .top__desing{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background: url('../images/bg-pattern-top-desktop.svg') no-repeat;
+        height: 362px;
+    }
+
+    .top__components{
+        margin: 4em;
+
+        h1{
+            font-size: 2.5em;
+            color: $very-dark-magenta;
+            font-weight: 700;
+            width: 360px;
+        }
+
+        p{
+            margin-top: 15px;
+            font-size: 1em;
+            width: 488px;
+            color: $dark-magenta;
+            font-weight: 500;
+        }
+    }
+}
+
+.stars__desing{
+    display: flex;
+    flex-direction: column;
+    margin: auto 60px;
+
+    .report__guru{
+        transform: translateX(100px);
+    }
+
+    .best__tech{
+        transform: translateX(200px);
+    }
+
+    .ranking__desing{
+        background-color: $light-grayish-magenta;
+        width: 380px;
+        margin-top: 20px;
+        padding: 20px 0;
+        display: flex;
+        border-radius: 10px;
+        
+        p{
+            color:$very-dark-magenta;
+            font-weight: 700;
+            margin-left: 20px;
+        }
+
+        .stars{
+            background: url('../images/icon-star.svg') repeat-x;
+            width: 85px;
+            margin-left: 15px;
+        }
+    }
+}
+
+.bottom__desing{
+    display: flex;
+    margin-left: 60px;
+    
+    .card{
+        width: 30%;
+        background-color: $very-dark-magenta;
+        margin-left: 35px;
+        padding: 20px;
+        height: 225px;
+        border-radius: 10px;
+    }
+
+    .top__card{
+        display: flex;
+        align-items: center;
+    }
+
+    .card:nth-child(1){
+        margin: 0;
+    }
+
+    .card__contents{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        
+        h4{
+            color: $white;
+        }
+
+        p{
+            color: $soft-pink;
+        }
+    }
+
+    .top__card img{
+        width: 15%;
+        height: 50%;
+        border-radius: 50%;
+    }
+
+}
+
+.bottom__card{
+    margin-top: 10px;
+
+    p{
+        font-size: 16px;
+        color: $white;
+    }
+}
+
+.colton__card{
+    transform: translateY(-30px);
+}
+
+.anne__card{
+    transform: translateY(30px);
+}
