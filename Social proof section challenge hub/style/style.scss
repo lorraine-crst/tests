@@ -19,7 +19,6 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         background: url('../images/bg-pattern-top-desktop.svg') no-repeat;
-        height: 362px;
     }
 
     .top__components{
@@ -29,7 +28,7 @@
             font-size: 2.5em;
             color: $very-dark-magenta;
             font-weight: 700;
-            width: 360px;
+            width: 50%;
         }
 
         p{
@@ -137,3 +136,6 @@
 .anne__card{
     transform: translateY(30px);
 }
+
+
+

@@ -20,7 +20,6 @@
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   background: url("../images/bg-pattern-top-desktop.svg") no-repeat;
-  height: 362px;
 }
 
 .container .top__components {
@@ -31,7 +30,7 @@
   font-size: 2.5em;
   color: #502050;
   font-weight: 700;
-  width: 360px;
+  width: 50%;
 }
 
 .container .top__components p {
